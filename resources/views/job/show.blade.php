@@ -116,7 +116,7 @@
                                     {{ $job->title ?? '' }}
                                 </h3>
                                 <span>
-                                    Job in {{ $job->country->country ?? '' }}
+                                    Jobs available in {{ $job->country->country ?? '' }}
                                 </span>
                                 <a href="{{ route('cv.index') }}" class="link-btn">
                                     <i class="flaticon-next-button"></i>
