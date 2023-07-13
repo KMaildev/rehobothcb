@@ -48,36 +48,17 @@
 
                 <div class="collapse navbar-collapse mean-menu">
                     <ul class="navbar-nav">
+
                         <li class="nav-item">
-                            <a href="{{ route('home') }}" class="nav-link active">
+                            <a href="{{ route('home') }}" class="nav-link">
                                 Home
                             </a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="#" class="nav-link">About
-                                <i class='bx bx-chevron-down'></i>
+                            <a href="{{ route('about.index') }}" class="nav-link">
+                                About of Our Company
                             </a>
-                            <ul class="dropdown-menu">
-
-                                <li class="nav-item">
-                                    <a href="{{ route('about.index') }}" class="nav-link">
-                                        About of Company
-                                    </a>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a href="{{ route('ceo_message') }}" class="nav-link">
-                                        President's Message
-                                    </a>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a href="{{ route('team') }}" class="nav-link">
-                                        Professional Team
-                                    </a>
-                                </li>
-                            </ul>
                         </li>
 
                         <li class="nav-item">
@@ -93,7 +74,6 @@
                                         </a>
                                     </li>
                                 @endforeach
-
                             </ul>
                         </li>
 
@@ -134,39 +114,15 @@
 
                         <li class="nav-item">
                             <a href="{{ route('contact.index') }}" class="nav-link">
-                                Contact
+                                Contact Us
                             </a>
                         </li>
                     </ul>
 
                     <div class="others-option d-flex align-items-center">
                         <div class="option-item">
-                            <div class="cart-btn">
-                                <a href="cart.html">
-                                    <i class="flaticon-shopping-cart"></i>
-                                    <span>1</span>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="option-item">
-                            <div class="search-box">
-                                <i class="flaticon-search"></i>
-                            </div>
-                        </div>
-
-                        <div class="option-item">
                             <div class="side-menu-btn">
                                 <i class="flaticon-menu" data-bs-toggle="modal" data-bs-target="#sidebarModal"></i>
-                            </div>
-                        </div>
-
-                        <div class="option-item">
-                            <div class="switch-box">
-                                <label id="switch" class="switch">
-                                    <input type="checkbox" onchange="toggleTheme()" id="slider">
-                                    <span class="slider round"></span>
-                                </label>
                             </div>
                         </div>
                     </div>
