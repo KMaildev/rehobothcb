@@ -4,37 +4,24 @@
             <div class="col-lg-7 col-md-12">
                 <div class="banner-wrapper-content">
                     <div class="content">
-                        <span class="sub-title">Growth Your Business</span>
-                        <h1>We Are Full Service SEO Agency</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
-                            viverra maecenas accumsan lacus vel facilisis.</p>
-                        <form>
-                            <div class="row">
-                                <div class="col-lg-5 col-md-6">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Enter Website URL">
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-4 col-md-6">
-                                    <div class="form-group">
-                                        <input type="email" class="form-control" placeholder="Email">
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-3 col-md-4 offset-lg-0 offset-md-4">
-                                    <button type="submit" class="default-btn">Start Now</button>
-                                </div>
-                            </div>
-                        </form>
+                        <span class="sub-title">
+                            Oversea Employment Service Agency
+                        </span>
+                        <h1>
+                            REBOTH CB CO., LTD
+                        </h1>
+                        <p style="text-align: justify">
+                            Choosing us as your overseas employment company means partnering with a dedicated and
+                            reliable team that is committed to your success. We will work tirelessly to ensure your
+                            employment needs are met with professionalism, integrity, and efficiency.
+                        </p>
                     </div>
                 </div>
             </div>
 
             <div class="col-lg-5 col-md-12">
-                <div class="banner-wrapper-image">
-                    <img src="{{ asset('assets/img/banner-img8.jpg') }}" alt="image">
+                <div class="banner-wrapper-image" style="background-image: url({{ asset('data/slider1.jpg') }});">
+                    <img src="{{ asset('data/slider1.jpg') }}" alt="image">
                     <div class="divider"></div>
                 </div>
             </div>

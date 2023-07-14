@@ -72,6 +72,43 @@
     </div>
 
 
+    <div class="it-about-area pt-100" style="background-color: white;">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+
+                <div class="col-lg-6 col-md-12">
+                    <div class="it-about-content">
+                        <h3>
+                            ဂျပန်ကုမဏီအမည်နှင့် အဓိပါယ်
+                        </h3>
+                        <p style="text-align: justify">
+                            REHOBOTH(ရေဟာဘုတ်)သည် ဣသေရလလူမျိးတို၏ ဖခင်ကီး ဣဇာက်သည်ေရတွင်းကိုတိုး၍ သူများလုယက်
+                            ြခင်းကိုခံခဲ့ရပါသည်။ အဲ့လိုနဲေနာက်ဆုံးတိုးေသာေရတွင်းကို ဘယ်သူမှ ေနှာက်ယှက်ြခင်းမရှိေတာ့ပဲ
+                            ဒီေနရာမှာ
+                            စီးပွားြဖစ်ပီးကီးပွားမည်ဟုဆိုကာ ထိုေရတွင်းကို ရေဟာဘုတ်ဟုမှည့်ေလသည်။ စီဘီသည် ဒါ ိုက်တာ CUNG
+                            THLUAIနှင့်
+                            ဒါ ိုက်တာ BIAK ERတို၏ နာမည်အဂလိပ်အကရာ၏ ပထမစာလုံးကို ရယူကာ ဤကုမဏီအားြဖင့်
+                            ကွျန်ေတာ်တိုမိသားစု၊
+                            ကွျန်ေတာ်တို ဝန်ထမ်းများ၊ ဒီကုမဏီနှင့်သက်ဆိုင်ေသာသူအားလုံးနှင့်
+                            ကွျန်ေတာ်တိုနိုင်ငံေတာ်အတွက်ပါ ြကိုးစားပီး
+                            အကျိးစးီပွားြဖစ်ထွန်းမည်ဟူေသာ အဓိပါယ်ြဖင့် REHOBOTH CB Co., Ltd (ရေဟာဘုတ် စီဘီကုမဏီလီမိတက်)ဟု
+                            မှည့်ရြခင်းြဖစ်ပါသည်။
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-6 col-md-12">
+                    <div class="it-about-image">
+                        <img src="{{ asset('data/logo1.jpg') }}" alt="image"
+                            style="width: 100%; height: 380px; background-size: center; object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <div class="container py-5">
         <div class="row d-flex justify-content-center">
             <div class="col-lg-12 col-md-12">

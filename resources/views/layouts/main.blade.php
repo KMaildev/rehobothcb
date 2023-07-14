@@ -18,8 +18,16 @@
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/dark.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}">
-    <title>REHOBOTH CB CO., LTD - @yield('title') </title>
-    <link rel="icon" type="image/png" href="{{ asset('assets/img/favicon.png') }}">
+    <title>REBOTH CB CO., LTD - @yield('title') </title>
+    <link rel="icon" type="image/png" href="{{ asset('data/logo.jpg') }}">
+
+    <meta content="" name="REBOTH CB CO., LTD">
+    <meta name="keywords" content="REBOTH CB CO., LTD" />
+    <meta property="og:title" content="REBOTH CB CO., LTD" />
+    <meta property="og:image" content="{{ asset('data/logo.jpg') }}" />
+    <meta property="og:url" content="https://www.rehobothcb.com/" />
+    <meta property="og:site_name" content="REBOTH CB CO., LTD" />
+
 </head>
 
 <body>

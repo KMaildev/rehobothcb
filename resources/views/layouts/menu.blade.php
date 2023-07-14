@@ -4,18 +4,25 @@
         <div class="row align-items-center">
             <div class="col-lg-6 col-md-6">
                 <ul class="top-header-contact-info">
-                    <li><i class='bx bx-phone-call'></i> <a href="tel:+14854560102">+1-485-456-0102</a></li>
-                    <li><i class='bx bx-envelope'></i> <a
-                            href="https://templates.envytheme.com/cdn-cgi/l/email-protection#1179747d7d7e51757873786b3f727e7c"><span
-                                class="__cf_email__"
-                                data-cfemail="6d05080101022d09040f0417430e0200">[email&#160;protected]</span></a>
+                    <li>
+                        <i class='bx bx-phone-call'></i>
+                        <a href="tel:09777702318">
+                            09777702318
+                        </a>
+                    </li>
+                    <li><i class='bx bx-envelope'></i>
+                        <a href="mailto:info@rehobothcb.com">
+                            info@rehobothcb.com
+                        </a>
                     </li>
                 </ul>
             </div>
 
             <div class="col-lg-6 col-md-6">
                 <div class="top-header-btn">
-                    <a href="contact.html" class="default-btn">Free Site Analysis</a>
+                    <a href="tel:09455559778" class="default-btn">
+                        Call Now
+                    </a>
                 </div>
             </div>
         </div>
@@ -188,57 +195,31 @@
 
             <div class="modal-body">
                 <div class="logo">
-                    <a href="index.html" class="d-inline-block"><img src="{{ asset('assets/img/logo.png') }}"
-                            alt="image"></a>
+                    <a href="{{ route('home') }}" class="d-inline-block">
+                        <img src="{{ asset('data/logo.jpg') }}" alt="image" style="width: 150px;">
+                    </a>
                 </div>
 
                 <div class="instagram-list">
                     <div class="row">
                         <div class="col-lg-4 col-md-4 col-sm-4 col-6">
                             <div class="box">
-                                <img src="{{ asset('assets/img/team/team-img1.jpg') }}" alt="image">
-                                <i class='bx bxl-instagram'></i>
-                                <a href="#" target="_blank" class="link-btn"></a>
+                                <img src="{{ asset('data/t3.jpg') }}" alt="image"
+                                    style="border-radius: 30px 0 30px 0; width: 100%; height: 100px; background-size: center; object-fit: cover;">
                             </div>
                         </div>
 
                         <div class="col-lg-4 col-md-4 col-sm-4 col-6">
                             <div class="box">
-                                <img src="{{ asset('assets/img/team/team-img2.jpg') }}" alt="image">
-                                <i class='bx bxl-instagram'></i>
-                                <a href="#" target="_blank" class="link-btn"></a>
+                                <img src="{{ asset('data/t1.jpg') }}" alt="image"
+                                    style="border-radius: 30px 0 30px 0; width: 100%; height: 100px; background-size: center; object-fit: cover;">
                             </div>
                         </div>
 
                         <div class="col-lg-4 col-md-4 col-sm-4 col-6">
                             <div class="box">
-                                <img src="{{ asset('assets/img/team/team-img3.jpg') }}" alt="image">
-                                <i class='bx bxl-instagram'></i>
-                                <a href="#" target="_blank" class="link-btn"></a>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-6">
-                            <div class="box">
-                                <img src="{{ asset('assets/img/team/team-img4.jpg') }}" alt="image">
-                                <i class='bx bxl-instagram'></i>
-                                <a href="#" target="_blank" class="link-btn"></a>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-6">
-                            <div class="box">
-                                <img src="{{ asset('assets/img/team/team-img5.jpg') }}" alt="image">
-                                <i class='bx bxl-instagram'></i>
-                                <a href="#" target="_blank" class="link-btn"></a>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-6">
-                            <div class="box">
-                                <img src="{{ asset('assets/img/team/team-img6.jpg') }}" alt="image">
-                                <i class='bx bxl-instagram'></i>
-                                <a href="#" target="_blank" class="link-btn"></a>
+                                <img src="{{ asset('data/t4.jpg') }}" alt="image"
+                                    style="border-radius: 30px 0 30px 0; width: 100%; height: 100px; background-size: center; object-fit: cover;">
                             </div>
                         </div>
                     </div>
@@ -246,18 +227,20 @@
 
                 <div class="sidebar-contact-info">
                     <h2>
-                        <a href="tel:+11234567890">+1 (123) 456 7890</a>
+                        <a href="tel:09777702318">
+                            09777702318
+                        </a>
                         <span>OR</span>
-                        <a
-                            href="https://templates.envytheme.com/cdn-cgi/l/email-protection#85ede0e9e9eac5e1ece7ecffabe6eae8"><span
-                                class="__cf_email__"
-                                data-cfemail="93fbf6fffffcd3f7faf1fae9bdf0fcfe">[email&#160;protected]</span></a>
+                        <a href="mailto:info@rehobothcb.com">
+                            info@rehobothcb.com
+                        </a>
                     </h2>
                 </div>
 
                 <ul class="social-list">
                     <li><span>Follow Us On:</span></li>
-                    <li><a href="#" target="_blank"><i class='bx bxl-facebook'></i></a></li>
+                    <li><a href="https://www.facebook.com/tjlc.edu.ac.jp" target="_blank"><i
+                                class='bx bxl-facebook'></i></a></li>
                     <li><a href="#" target="_blank"><i class='bx bxl-twitter'></i></a></li>
                     <li><a href="#" target="_blank"><i class='bx bxl-youtube'></i></a></li>
                     <li><a href="#" target="_blank"><i class='bx bxl-twitch'></i></a></li>
@@ -267,27 +250,3 @@
     </div>
 </div>
 <!-- End Sidebar Modal -->
-
-<!-- Search Overlay -->
-<div class="search-overlay">
-    <div class="d-table">
-        <div class="d-table-cell">
-            <div class="search-overlay-layer"></div>
-            <div class="search-overlay-layer"></div>
-            <div class="search-overlay-layer"></div>
-
-            <div class="search-overlay-close">
-                <span class="search-overlay-close-line"></span>
-                <span class="search-overlay-close-line"></span>
-            </div>
-
-            <div class="search-overlay-form">
-                <form>
-                    <input type="text" class="input-search" placeholder="Search here...">
-                    <button type="submit"><i class="flaticon-search"></i></button>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- End Search Overlay -->
