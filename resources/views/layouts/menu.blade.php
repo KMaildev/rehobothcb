@@ -36,9 +36,9 @@
         <div class="container-fluid">
             <div class="dibiz-responsive-menu">
                 <div class="logo">
-                    <a href="index.html">
-                        <img src="{{ asset('data/logo.jpg') }}" class="main-logo" alt="logo">
-                        <img src="{{ asset('data/logo.jpg') }}" class="white-logo" alt="logo">
+                    <a href="{{ route('home') }}">
+                        <img src="{{ asset('data/logo.jpg') }}" class="main-logo" alt="logo" style="width: 60px;">
+                        <img src="{{ asset('data/logo.jpg') }}" class="white-logo" alt="logo" style="width: 60px;">
                     </a>
                 </div>
             </div>
@@ -138,52 +138,7 @@
         </div>
     </div>
 
-    <div class="others-option-for-responsive">
-        <div class="container">
-            <div class="dot-menu">
-                <div class="inner">
-                    <div class="circle circle-one"></div>
-                    <div class="circle circle-two"></div>
-                    <div class="circle circle-three"></div>
-                </div>
-            </div>
-
-            <div class="container">
-                <div class="option-inner">
-                    <div class="others-option justify-content-center d-flex align-items-center">
-                        <div class="option-item">
-                            <div class="cart-btn">
-                                <a href="cart.html">
-                                    <i class="flaticon-shopping-cart"></i>
-                                    <span>1</span>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="option-item">
-                            <div class="search-box">
-                                <i class="flaticon-search"></i>
-                            </div>
-                        </div>
-
-                        <div class="option-item">
-                            <div class="side-menu-btn">
-                                <i class="flaticon-menu" data-bs-toggle="modal" data-bs-target="#sidebarModal"></i>
-                            </div>
-                        </div>
-                        <div class="option-item">
-                            <div class="switch-box">
-                                <label id="switch" class="switch">
-                                    <input type="checkbox" onchange="toggleTheme()" id="slider">
-                                    <span class="slider round"></span>
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    
 </div>
 <!-- End Navbar Area -->
 
